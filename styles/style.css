@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+
+body {
+    font-family: "Roboto", sans-serif;
+    line-height: 1.8;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-weight: 900 !important;
+}
+
+a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    font-weight: 800;
+    color: #20212c;
+}
+
+img {
+    width: 100%;
+}
+
+section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+    z-index: 2;
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(rgba(96, 96, 106, 0.1), rgba(5, 5, 5, 0.653));
+    z-index: -1;
+}
+
+.bg-cover {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.hero-section {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    box-shadow: 0 12px 20px rgba(0,0,0,0.1);
+}
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    background: -webkit-linear-gradient(#a8aaaa, #313131);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.section-intro {
+    margin-bottom: 40px;
+}
+
+.section-intro .divider {
+    height: 4px;
+    width: 70px;
+    background: linear-gradient(to right,#a7acad, #6c6c6d);
+    margin: 16px auto;
+    color: #fff;
+}
+
+.skills .skills-img {
+    position: relative;
+}
+
+.skills .skills-img .icon {
+    width: 90px;
+    height: 90px;
+    background: linear-gradient(to right,#6c6c6c, #1d1d1d);
+    color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.skills .skills-img{
+    font-size: 36px;
+}
+
+
+.contact {
+    box-shadow: 0 12px 12px rgba(0,0,0,0.1);
+}
+.contact .media {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(0,0,0,0.07);
+    padding-bottom: 18px;
+}
+
+.contact .media img {
+    width: 75px;
+    height: 75px;
+    border-radius: 100px;
+}
+
+
+
+
+
+

@@ -1,4 +1,4 @@
-# Mohamed Wattas - Portfolio
+# Mohamed Ouattas - Portfolio
 
 ## Description
 
